@@ -1,0 +1,315 @@
+<html>
+<head>
+<link href="custom.css" type="text/css" rel="stylesheet" media="screen"/>
+<link href="bootstrap.min.css" type="text/css" rel="stylesheet" media="screen"/>
+
+<style>
+
+.btn-primary-buy{
+  padding: 10px 10px 10px 10px;
+  background: #E3782E;
+  border-color: #E3782E;
+  font-size: 16pt;
+  color: #FFF;
+}
+.btn-primary-buy:hover{
+  background: #F28C46;
+  border-color: #E3782E;
+  color: #FFF;
+}
+.panel-dining{
+  border: none;
+  background: #FFF;
+}
+.bg-white{
+  background: #FFF;
+}
+.full-page{
+  width: 100vw;
+  position: relative;
+  margin: 0 0 50px -49.5vw;
+  left: 50%;
+  padding: 50px 0 50px 0;
+  background: #E3782E;
+  color: #FFF;
+  text-align: center;
+  box-shadow: 0px 2px 3px #604638;
+}
+.button-box{
+  overflow: hidden;
+  height: 175px;
+  width: 100vw;
+  position: relative;
+  margin: 50px 0 0 -49.5vw;
+  left: 50%;
+  color: #FFF;
+  text-align: center;
+  box-shadow: 0px 2px 3px #604638;
+  cursor: pointer;
+}
+.button-box h2{
+  cursor: pointer;
+}
+.button-box:hover .button-img, .button-box:focus .button-img{
+  transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -ms-transform: scale(1.5); /* IE 9 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand')"; /* IE8 */
+  filter: progid:DXImageTransform.Microsoft.Matrix(M11=1.5, M12=0, M21=0, M22=1.5, SizingMethod='auto expand'); /* IE6 and 7 */
+  box-shadow: inset 0 0 0 1000px rgba(227, 120, 46, 0.65);
+}
+.button-img{
+  height: 175px;
+  background-position:center;
+  transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+#salads-menu{
+  padding: 30px 0 30px 0;
+  background-image: url('/uploadedImages/Dining/ragged_salad_button.PNG');
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  background-size: cover;
+}
+#salads-menu h2{
+  color: #FFF;
+}
+#starters-menu{
+  padding: 30px 0 30px 0;
+  background-image: url('/uploadedImages/Dining/ragged_appetizer_button.PNG');
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  background-size: cover;
+}
+#starters-menu h2{
+  color: #FFF;
+}
+#soups-menu{
+  padding: 30px 0 30px 0;
+  background-image: url('/uploadedImages/Dining/ragged_soup_buton.PNG');
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  background-size: cover;
+}
+#soups-menu h2{
+  color: #FFF;
+}
+#sandwich-menu{
+  padding: 30px 0 30px 0;
+  background-image: url('/uploadedImages/Dining/ragged_sandwich_button.PNG');
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  background-size: cover;
+}
+#sandwich-menu h2{
+  color: #FFF;
+}
+.menu-info{
+  overflow: hidden;
+  max-height: 0;
+  -webkit-transition: max-height 0.5s; 
+  -moz-transition: max-height 0.5s; 
+  -ms-transition: max-height 0.5s; 
+  -o-transition: max-height 0.5s; 
+  transition: max-height 0.5s;
+  margin: 20px 0 0 0;
+}
+.menu-info.open{
+  max-height: 2000px;
+}
+.full-page h1{
+  color: #FFF;
+  padding: 0;
+  margin: 0;
+}
+.full-page h3{
+  color: #FFF;
+  padding: 0;
+  margin: 0;
+}
+.dining-thumbnail{
+  margin: 0 0 50px 0;
+}
+.margin-center{
+  margin-left: auto;
+  margin-right: auto;
+}
+.no-top-margin{
+  margin-top: 0;
+}
+.psuedo-margin{
+  position: relative;
+}
+.psuedo-margin::before{
+  content: " ";
+  display: inline-block;
+  height: 40px;
+  width: 1%;
+}
+
+</style>
+</head>
+<body>
+
+<div class="full-page">
+  <p><h1>Birches Mountain Restaurant</h1></p>
+  <p><h3>Hours: CLOSED FOR THE SEASON</h3></p>
+  <p><h3>(603) 768-3600</h3></p>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <p>Birches is our family dining spot, yaddy-yaddy-yadda. Ullamcorper torquent quam parturient malesuada sit senectus a odio orci a euismod turpis euismod torquent sapien magna vulputate bibendum quisque a vestibulum duis sit a ultrices. Dapibus a condimentum vestibulum etiam at a id vestibulum ullamcorper scelerisque magnis adipiscing ac sem cum parturient sociis interdum mi massa ridiculus fringilla sociosqu quam.</p>
+    <p>Ullamcorper torquent quam parturient malesuada sit senectus a odio orci a euismod turpis euismod torquent sapien magna vulputate bibendum quisque a vestibulum duis sit a ultrices. Dapibus a condimentum vestibulum etiam at a id vestibulum ullamcorper scelerisque magnis adipiscing ac sem cum parturient sociis interdum mi massa ridiculus fringilla sociosqu quam.</p>
+    <br />
+    <p>Restaurant hours are seasonal and subject to change without notice. Please call ahead to confirm operating hours.</p>
+    <p>For groups of 10 or more, please call ahead to reserve seating: (603) 768-3600</p>
+    <br /><br />
+    <p class="text-center">To learn more about our food offerings, click on any of the menu items below!</p>
+    <br />
+  </div>
+</div>
+
+<!-- SALADS -->
+<div class="button-box" id="salads-button">
+  <div id="salads-menu" class="button-img">
+    <p><h2>SALADS</h2></p>
+  </div>
+</div>
+<div class="row menu-info" id="salad-info">
+  <div class="col-xs-12 col-md-6 text-center">
+    <h4>Wedge Salad</h4>
+    <p><strong>$12.00</strong></p>
+    <p>A wedge of Boston Bibb lettuce, served with tomato, blue cheese crumbles, bacon, and drizzled with buttermilk ranch dressing.</p>
+  </div>
+  <div class="col-xs-12 col-md-6 text-center">
+    <h4>Caesar Salad</h4>
+    <p><strong>$10.00</strong></p>
+    <p>Fresh Romaine lettuce, cruncy seasoned croutons, and Parmesan cheese, with your choice of dressing.</p>
+    <p>Add <em>Grilled chicken</em> for $5.00, <em>steak</em> for $10.00, or <em>shrimp</em> for $8.00.</p>
+  </div>
+</div>
+
+<!-- STARTERS -->
+<div class="button-box"  id="starters-button">
+  <div id="starters-menu" class="button-img">
+    <p><h2>SMALL PLATES</h2></p>
+  </div>
+</div>
+<div class="row menu-info" id="starters-info">
+  <div class="col-xs-12 col-md-6 text-center">
+    <h4>Poutine</h4>
+    <p><strong>$9.00</strong></p>
+    <p>Golden french fries topped with shredded beef gravy and cheddar sauce.</p>
+    <br />
+    <h4>Macaroni &amp; Cheese</h4>
+    <p><strong>$10.00</strong></p>
+    <p>Homemade macaroni &amp; cheese made with bacon, fresh tomatoes, and chive oil.</p>
+    <br />
+    <h4>Maple Chili Wings</h4>
+    <p><strong>$11.00</strong></p>
+    <p>Chicken wings covered in our homemade maple chili sauce. Served with carrots, celery, and buttermilk ranch.</p>
+  </div>
+  <div class="col-xs-12 col-md-6 text-center">
+    <h4>Fried Kosher Pickles</h4>
+    <p><strong>$9.00</strong></p>
+    <p>Crispy fried kosher pickles served with a side of our Sriracha &amp; honey aioli.</p>
+    <br />
+    <h4>Honey Bourbon Steak Tips</h4>
+    <p><strong>$12.00</strong></p>
+    <p>Marinated in our honey bourbon sauce and served on a fresh, arugula salad with a lemon saffron aioli.</p>
+    <br />
+    <h4>Teriyaki Pork Wings</h4>
+    <p><strong>$11.00</strong></p>
+    <p>Covered in a caramel drizzle and sprinkled with sea salt.</p>
+  </div>
+</div>
+
+<!-- SOUPS -->
+<div class="button-box" id="soups-button">
+  <div id="soups-menu" class="button-img">
+    <p><h2>HOT BOWLS</h2></p>
+  </div>
+</div>
+<div class="row menu-info" id="soups-info">
+  <div class="col-xs-12 text-center">
+    <h4>Fresh Ramen Noodles</h4>
+    <p><strong>$10.00</strong></p>
+    <p>Fresh Noodles served in your choice of broth, along with all the typical Ramen fixin's!</p>
+    <p>Choose from our <em>Vegetarian Miso</em> or homemade <em>Chicken Broth</em>.</p>
+    <p>Comes with choice of <em>grilled chicken</em> or <em>shredded pork</em>, carrots, broccoli, shitake mushrooms, and scallions</p>
+    <br />
+  </div>
+  <div class="col-xs-12 col-md-6 text-center">
+    <h4>Angus Beef Chili</h4>
+    <p><strong>$8.00</strong></p>
+    <p>Hearty pieces of angus beef, black beans, and fresh tomato. There's nothing better after a cold day of skiing!</p>
+  </div>
+  <div class="col-xs-12 col-md-6 text-center">
+    <h4>New England Clam Chowder</h4>
+    <p><strong>$8.00</strong></p>
+    <p>New England's finest chunks of real clam, potatoes, onion. Served with oyster crackers.</p>
+  </div>
+</div>
+
+<!-- SAMMIES -->
+<div class="button-box" id="sandwich-button">
+  <div id="sandwich-menu" class="button-img">
+    <p><h2>SANDWICHES</h2></p>
+  </div>
+</div>
+<div class="row menu-info" id="sandwich-info">
+  <div class="col-xs-12 text-center">
+    <p>All sandwiches are served with french fries or side salad.</p>
+    <br />
+  </div>
+  <div class="col-xs-12 col-md-6 text-center">
+    <h4>Headwall Burger</h4>
+    <p><strong>$12.00</strong></p>
+    <p>A staff favorite! Angus beef, served with sharp cheddar cheese, fresh lettuce and tomato, and a saffron aioli.</p>
+    <p>Add <em>applewood smoked bacon</em> or <em>caramelized onion</em> for just $0.99.</p>
+    <br />
+    <h4>Grilled Portabella Veggie Burger</h4>
+    <p><strong>$12.00</strong></p>
+    <p>Meat not your thing? Try our marinated, grilled Portabella cap, served with fresh lettuce, tomato, and a lemon aioli.</p>
+  </div>
+  <div class="col-xs-12 col-md-6 text-center">
+    <h4>Ragged Grilled Cheese</h4>
+    <p><strong>$10.00</strong></p>
+    <p>Our take on a classic. Shaved Gala apples, local cheddar cheese, and caramelized onions.</p>
+    <p>Add <em>applewood smoked bacon</em> for just $0.99.</p>
+    <br />
+    <h4>BBQ Pulled Pork Sliders</h4>
+    <p><strong>$12.00</strong></p>
+    <p>Slow roasted pulled pork, homemade BBQ sauce, and shaved cabbage, all served on Portuguese sweet bread rolls.</p>
+  </div>
+</div>
+
+<script>
+  var saladButton = document.getElementById("salads-button");
+  var saladInfo = document.getElementById("salad-info");
+  var soupButton = document.getElementById("soups-button");
+  var soupInfo = document.getElementById("soups-info");
+  var starterButton = document.getElementById("starters-button");
+  var starterInfo = document.getElementById("starters-info");
+  var sandwichButton = document.getElementById("sandwich-button");
+  var sandwichInfo = document.getElementById("sandwich-info");
+
+  saladButton.addEventListener("click", function(){
+    saladInfo.classList.toggle("open");
+  });
+
+  soupButton.addEventListener("click", function(){
+    soupInfo.classList.toggle("open");
+  });
+
+  starterButton.addEventListener("click", function(){
+    starterInfo.classList.toggle("open");
+  });
+
+  sandwichButton.addEventListener("click", function(){
+    sandwichInfo.classList.toggle("open");
+  });
+</script>
+</body>
+</html>
